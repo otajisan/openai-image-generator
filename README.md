@@ -2,14 +2,28 @@
 
 Generate suitable image by using Open AI API
 
+# Prepare
+
+- write your [Open AI API Key](https://platform.openai.com/account/api-keys)
+
+```bash
+❱❱❱ cp .env.example .env
+❱❱❱ vi .env
+```
+
 # Usage
 
 ```bash
 # example
 ❱❱❱ ./run.sh
 prompt: Rubik's Cube spinning at high speed. The background color is white.
-prompt: Rubik's Cube spinning at high speed. The background color is white. width: 1024 height: 1024
+[parameters]
+prompt: Rubik's Cube spinning at high speed. The background color is white.
+width: 1024
+height: 1024
+number: 5
 🍣 Generated image!:
+
 # output 5 images.
 ```
 
