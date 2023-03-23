@@ -11,3 +11,5 @@ prompt: Rubik's Cube spinning at high speed. The background color is white. widt
 🍣 Generated image!:
 # output 5 images.
 ```
+
+<img src="https://user-images.githubusercontent.com/5608492/227156282-adf6300c-8567-446e-9e0f-ea9641c2158f.png" width="256" height="256" />
