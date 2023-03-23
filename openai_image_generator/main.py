@@ -19,7 +19,6 @@ def main(prompt: str, width: int, height: int):
         n=5,
         size=f'{width}x{height}'
     )
-    image_url = response['data'][0]['url']
 
     image_urls = '\n'.join([f"{idx + 1}: {x['url']}" for idx, x in enumerate(response['data'])])
     print(f'{Color.GREEN}🍣 Generated image!:{Color.GREEN}\n{Color.BLUE}{image_urls}{Color.BLUE}')
